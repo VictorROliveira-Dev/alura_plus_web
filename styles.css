@@ -133,3 +133,44 @@ body {
     font-weight: lighter;
     color: var(--gray-secondary);
 }
+
+.footer__section {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.logo__footer {
+    margin-bottom: 2em;
+}
+
+.footer__list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.list__links {
+    margin-right: 16px;
+    margin-left: auto;
+    margin-bottom: 26px;
+}
+
+.links_footer {
+    text-decoration: none;
+    margin-left: 1em;
+    color: var(--white-main);
+}
+
+.footer_text {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.secondary-footer {
+    margin-bottom: 80px;
+}
+
+.links_footer:hover {
+    color: blue;
+}
