@@ -111,3 +111,25 @@ body {
 .container__description {
     padding: 2em;
 }
+
+.list__devices {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 4em 0;
+}
+
+.section__devices {
+    text-align: center;
+}
+
+.title__devices {
+    font-size: 40px;
+    color: var(--white-main);
+}
+
+.list__item {
+    font-size: 30px;
+    font-weight: lighter;
+    color: var(--gray-secondary);
+}
