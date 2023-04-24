@@ -19,6 +19,14 @@ body {
     font-weight: 400;
 }
 
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(111, 0, 255);
+}
+
 .container__box {
     margin: 0 6em;
 }
@@ -66,4 +74,27 @@ body {
 
 .container__image {
     margin: 1em 0 2em 0;
+}
+
+
+.container_image_secondary {
+    width: 70%;
+}
+
+.secondary-section {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.description__title {
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--white-main);
+    margin-bottom: 0.1em;
+}
+
+.paragraph {
+    font-weight: lighter;
+    font-size: 30px;
+    color: var(--gray-secondary);
 }
